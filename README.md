@@ -19,3 +19,36 @@ The project is organized with a focus on clarity and modularity:
   - **Running Class**: Inherits from `Workout`, adds additional properties for running (cadence, pace).
   - **Cycling Class**: Inherits from `Workout`, adds properties specific to cycling (elevation, speed).
 
+## 🖥️ Installation
+
+To run the project locally:
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-username/workout-tracker.md
+    ```
+
+2. **Navigate to the project directory**:
+    ```bash
+    cd workout-tracker.md
+    ```
+
+3. **Open the app**:  
+   Simply open the `index.html` file in your browser.
+
+---
+
+## 📦 Technologies Used
+
+- **JavaScript (ES6)** for core functionality
+- **Leaflet.js** for map rendering
+- **HTML5 & CSS3** for layout and design
+- **localStorage** API for persisting data in the browser
+
+
+## 🔧 Usage
+
+- **Add a Workout**: Click on the map to set a location, fill in the workout details (distance, duration, etc.), and select the type (running or cycling).
+- **View Workouts**: Workouts will appear as markers on the map and as a list on the side panel.
+- **Switch Workout Type**: Select either **running** or **cycling** from the form, and the fields will adjust accordingly.
+- **Persistent Data**: All workout data is stored using `localStorage`, so the workouts will remain even after refreshing the page.
