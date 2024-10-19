@@ -52,3 +52,6 @@ To run the project locally:
 - **View Workouts**: Workouts will appear as markers on the map and as a list on the side panel.
 - **Switch Workout Type**: Select either **running** or **cycling** from the form, and the fields will adjust accordingly.
 - **Persistent Data**: All workout data is stored using `localStorage`, so the workouts will remain even after refreshing the page.
+
+## LIVE
+--https://souravkhan12.github.io/WorkoutMap/
